@@ -37,3 +37,8 @@ for (let index = 1; index < numbers.length; index += 1) {
 }
 
 console.log(higherNumber);
+
+let numerosPrimos = 0
+for (let index = 2; index > 50; index++) {
+  if (index )
+}
