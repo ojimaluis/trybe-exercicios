@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submeter Palestra</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="speaker-form-header">
+        <h1>Submeter Palestra</h1>
+        <p><em>Quer Participar da nossa confêrencia? Preencha o formulário abaixo!</em></p>
+    </header>
+    <main>
+        <form action="" method="get" class="speaker-form">
+            <section class="form-content">
+                <div class="line-content">
+                    <label for="full-name">Nome:</label>
+                    <input type="text" name="full-name" id="full-name"/>
+                </div>
+                <div class="line-content">
+                    <fieldset>
+                        <legend>Tipo de palestra</legend>
+                        <input type="radio" name="tipo-palestra" id="tipo-1"/>
+                        <label for="tipo-1">Sala principal</label>
+                        <input type="radio" name="workshop" id="tipo-2"/>
+                        <label for="tipo-2">Workshop</label>
+                    </fieldset>
+                </div>
+                <div class="line-content">
+                    <label for="">Tamanho da camiseta:</label>
+                    <select name="camiseta" id="camiseta">
+                        <option value="gg">GG</option>
+                        <option value="g">G</option>
+                        <option value="m">M</option>
+                        <option value="p">P</option>
+                    </select>
+                </div>
+                <div class="line-content">
+                    <label for="resumo">Resumo</label>
+                    <textarea name="resumo" id="resumo" cols="30" rows="10" placeholder="Minha palestra é sobre..."></textarea>
+                    <span class="instrucoes">Descreva a sua palestra em 500 palavras ou menos.</span>
+                </div>
+                <div class="line-content">
+                    <label for="disponibilidade">
+                        <input type="checkbox" name="disponibilidade" id="disponibilidade" value="disponibilidade-ok"/>
+                        <span>Eu tenho disponibilidade para participar do evento nesta data.</span>
+                    </label>
+                </div>
+                <div class="line-content">
+                    <button class="btn-enviar" type="submit">Enviar</button>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
