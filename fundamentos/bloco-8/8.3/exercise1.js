@@ -94,4 +94,5 @@ const oldBooksOrdered = () =>
   books
     .filter((book) => book.releaseYear < 2022 - 60)
     .sort((book1, book2) => book1.releaseYear - book2.releaseYear);
-console.log(oldBooksOrdered());
+//console.log(oldBooksOrdered());
+
